@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: rgb(245, 245, 245);
+  /*height: 1080px;*/
+}
+
+.title {
+  border-top: 3px solid rgb(252, 98, 93);
+  border-bottom: 3px solid rgb(252, 98, 93);
+  color: rgb(252, 98, 93);
+  font-family: Helvetica, sans-serif;
+  font-size: 5rem;
+  font-weight: lighter;
+  text-align: center;
+  width: 100%;
+}
+
+.container {
+  height:100%;
+  margin: 0 11%;
+  position: relative;
+  width: 78%;
+}
+
+.photo {
+  box-shadow: 0 2px 4px 2px rgb(200, 200, 200);
+  display: inline-block;
+  font-size: 0;
+  max-height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  vertical-align: top;
+  width: 33%;
+}
+
+.thumbnail {
+  height: 67%;
+  width:100%;
+}
+
+.footer {
+  background-color: rgb(220, 220, 220);
+  border-top: 3px;
+  color: black;
+  font-family: Helvetica, sans-serif;
+  height: 33%;
+  margin: 0;
+  padding: 5%;
+}
+
+.footer__info {
+  font-size: .8rem;
+  margin: 0;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.7);
+  bottom: 0%;
+  display: none;
+  height: 100%;
+  left: 0%;
+  margin:0;
+  position: fixed;
+  right: 0%;
+  text-align: center;
+  top: 0%;
+  width: 100%;
+}
+
+.modal__visible {
+  background-color: rgba(0, 0, 0, 0.7);
+  bottom: 0%;
+  height: 100%;
+  left: 0%;
+  margin:0;
+  position: fixed;
+  right: 0%;
+  text-align: center;
+  top: 0%;
+  width: 100%;
+}
+
+.modal__title {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-bottom: 3px solid black;
+  color: rgb(252, 98, 93);
+  font-family: Helvetica, sans-serif;
+  font-size: 5rem;
+  font-weight: lighter;
+  display: inline-block;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: -2%;
+  width: 40%;
+}
+
+.modal__content {
+  background-color: rgb(255, 255, 255);
+  height: 80%;
+  margin: 2.5% 10%;
+  border: 1px solid rgb(30, 30, 30);
+  text-align: center;
+  width: 80%;
+
+}
+
+.modal__image {
+  border: 3px solid black;
+  width: 100%;
+  height: 100%;
+}
+
+.modal__exit {
+  border: 3px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  outline: none;
+  padding: 8px;
+}
+
+.modal__exit:hover{
+  border: 3px solid rgb(252, 98, 93);
+  cursor: pointer;
+}
